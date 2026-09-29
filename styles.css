@@ -1,0 +1,20 @@
+p::first-letter {
+    color: #c00000;
+}
+
+body {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.2em; }
+
+.small {
+    font-size: 0.85em;
+}
