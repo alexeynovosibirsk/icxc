@@ -1,0 +1,25 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - echo "Build stage"
+    - echo "тест" > artifact.txt
+  artifacts:
+    paths:
+      - artifact.txt
+
+test_job:
+  stage: test
+  script:
+    - echo "Test stage"
+    - cat artifact.txt
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Deploy stage"
+    - cat artifact.txt
