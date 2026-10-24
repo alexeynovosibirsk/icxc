@@ -7,19 +7,18 @@ build_job:
   stage: build
   script:
     - echo "Build stage"
-    - echo "тест" > artifact.txt
+    - echo "TEST" > test.txt
   artifacts:
     paths:
-      - artifact.txt
+      - test.txt
+    expire_in: 1 hour
 
 test_job:
   stage: test
   script:
     - echo "Test stage"
-    - cat artifact.txt
 
 deploy_job:
   stage: deploy
   script:
     - echo "Deploy stage"
-    - cat artifact.txt
