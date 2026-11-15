@@ -12,27 +12,16 @@ p {
 }
 
 h1 { font-size: 0.8em;
-    color: #c00000;          /* цвет шрифта  */
+      color: #c00000;          /* цвет шрифта  */
       text-align: center;      /* выравнивание по центру */
-      }
-h2 { font-size: 0.7em; }
-h3 { font-size: 0.7em; }
-h4 { font-size: 0.7em; }
+}
 
 .small {
     font-size: 0.85em;
     font-style: italic;
     text-align: center;
-
 }
 
 .red {
     color:  #c00000;
     }
-
-summary {
-  color: #d32f2f;           /* цвет текста (например, тёмно‑красный) */
-  font-size: 0.7em;       /* размер шрифта (можно использовать px, em, rem и т. д.) */
-  cursor: pointer;          /* показывает, что элемент кликабельный */
-  padding: 8px 12px;        /* внутренние отступы для удобства клика */
-}
