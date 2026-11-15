@@ -12,7 +12,9 @@ p {
     line-height: 1.4;
 }
 
-h1 { font-size: 0.7em; }
+h1 { font-size: 0.7em;
+    color: #c00000;          /* цвет шрифта  */
+      text-align: center;      /* выравнивание по центру */}
 h2 { font-size: 0.7em; }
 h3 { font-size: 0.7em; }
 h4 { font-size: 0.7em; }
